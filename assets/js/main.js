@@ -1,3 +1,4 @@
+/*** Objeto Imagen ***/
 function Imagen(promo, ciudad, nombre){
   this.promo = promo;
   this.ciudad = ciudad;
@@ -15,6 +16,9 @@ function Imagen(promo, ciudad, nombre){
   }
 }
 
+/*** Colocando datos para crear objetos***/
+
+/** 4ta promoción Chile"**/
 var imagen4taChile1 = new Imagen('4', 'chile', 'anais-araya');
 imagen4taChile1.addImagen();
 
@@ -36,7 +40,7 @@ imagen4taChile6.addImagen();
 var imagen4taChile7 = new Imagen('4', 'chile', 'katerine-sandoval');
 imagen4taChile7.addImagen();
 
-
+/** 5ta promoción Lima"**/
 var imagen5taLima1 = new Imagen('5', 'lima', 'andrea-cabrera');
 imagen5taLima1.addImagen();
 
@@ -58,7 +62,7 @@ imagen5taLima6.addImagen();
 var imagen5taLima7 = new Imagen('5', 'lima', 'teresa-lara');
 imagen5taLima7.addImagen();
 
-
+/** 6ta promoción Lima"**/
 var imagen6taLima1 = new Imagen('6', 'lima', 'arantza-burga');
 imagen6taLima1.addImagen();
 
